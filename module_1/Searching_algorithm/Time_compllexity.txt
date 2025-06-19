@@ -1,0 +1,17 @@
+Big O notation tells us how fast or  slow an algorithm runs when we increase the input size .
+In other words we can it describes the time or space complexity of an algorithm in terms of the size of the input. It gives us the worst case time the algorithm takes to run.
+
+The best , average and worst case scenarios of searching algorithm are as follows:-
+1. Linear Search:-
+Best Case: O(1) (Item is first).
+Average Case: O(n) (Item in the middle).
+Worst Case: O(n) (Item not found or last).
+
+2. Binary Search:-
+Best Case: O(1) (Item is the middle element).
+Average Case: O(log n) (Halves search space each step).
+Worst Case: O(log n) (Item at extremes or missing).
+
+
+
+Binary Search is a better option for this platform as it offers fast performance but only for sorted data incase of unsorted data linear search is better but slower in comparison.
