@@ -1,0 +1,7 @@
+When a function calls itself to solve smaller instances is known as Recursion.
+
+Recursion simplifies a certain problem by breaking it down into smaller identical subproblems.
+
+The Time complexity of my code is O(n) as each call is reduced by 1 like for 2 years there will be 2 recursive calls.
+
+Recursion is useful and efficient when there is a large input n as it does repeated calculations so to optimize it a map could be used for storing the values calculated as it would reduce redundant calculations. 
