@@ -1,0 +1,8 @@
+JPA (Java Persistence API)
+JPA is like a rulebook or standard for managing relational databases in Java. It defines how Java objects should map to database tables (like how a User class maps to a users table). However, JPA is just a set of interfaces—it doesn’t do anything on its own. You need an actual implementation (like Hibernate) to make it work.
+
+Hibernate
+Hibernate is the most popular implementation of JPA. It’s like the "engine" that follows JPA’s rules but adds extra features (like better performance, caching, and more). If JPA is the instruction manual, Hibernate is the worker doing the actual job.
+
+Spring Data JPA
+Spring Data JPA is a layer on top of JPA (and Hibernate) that makes database operations even easier. Instead of writing complex queries, you just define method names (like findByUsername()), and Spring generates the SQL for you. It reduces boilerplate code and works with any JPA provider (like Hibernate).
