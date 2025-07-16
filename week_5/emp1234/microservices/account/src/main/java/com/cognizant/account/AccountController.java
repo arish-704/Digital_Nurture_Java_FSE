@@ -8,7 +8,10 @@ public class AccountController {
 
     @GetMapping("/{number}")
     public Account getAccount(@PathVariable String number) {
-        return new Account(number, "savings", 234343);
+        System.out.println("Fetching account details for: " + number);
+
+        // Dummy updated data
+        return new Account(number, "current", 785430.75);
     }
 }
 
@@ -23,7 +26,6 @@ class Account {
         this.balance = balance;
     }
 
-    // Getters (required for JSON response)
     public String getNumber() { return number; }
     public String getType() { return type; }
     public double getBalance() { return balance; }

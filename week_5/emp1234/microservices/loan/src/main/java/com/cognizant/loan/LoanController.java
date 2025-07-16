@@ -8,7 +8,10 @@ public class LoanController {
 
     @GetMapping("/{number}")
     public Loan getLoan(@PathVariable String number) {
-        return new Loan(number, "car", 400000, 3258, 18);
+        System.out.println("Fetching loan details for account: " + number);
+
+        // You can change values here as needed
+        return new Loan(number, "home", 1200000, 10234.50, 240);
     }
 }
 
@@ -27,7 +30,6 @@ class Loan {
         this.tenure = tenure;
     }
 
-    // Getters
     public String getNumber() { return number; }
     public String getType() { return type; }
     public double getLoan() { return loan; }
