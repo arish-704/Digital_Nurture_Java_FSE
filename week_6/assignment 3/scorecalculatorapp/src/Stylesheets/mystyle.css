@@ -1,0 +1,42 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .main-title {
+    color: brown;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .details-container {
+    display: inline-block;
+    text-align: left;
+    font-size: 1.2em;
+  }
+  
+  .details-container p {
+    margin: 10px 0;
+  }
+  
+  .label-name {
+    color: blue;
+    font-weight: bold;
+  }
+  
+  .label-school {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .label-total {
+    color: black;
+    font-weight: bold;
+  }
+  
+  .label-score {
+    color: green;
+    font-weight: bold;
+  }
