@@ -1,0 +1,16 @@
+/* 6. Define the 'box' class */
+.box {
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added for better visuals */
+    vertical-align: top; /* Ensures alignment if heights differ */
+  }
+  
+  /* 7. Define style for the <dt> element */
+  .box dt {
+    font-weight: 500;
+  }
