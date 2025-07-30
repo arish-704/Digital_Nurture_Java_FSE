@@ -1,0 +1,29 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.office-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 20px auto;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.office-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* CSS class for rent below 60000 */
+.text-red {
+  color: red;
+}
+
+/* CSS class for rent above or equal to 60000 */
+.text-green {
+  color: green;
+}
