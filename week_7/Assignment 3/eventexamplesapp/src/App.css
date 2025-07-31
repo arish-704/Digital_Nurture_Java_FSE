@@ -1,0 +1,28 @@
+
+.App {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+input {
+  margin: 5px;
+  padding: 8px;
+}
+
+hr {
+  margin: 20px 0;
+}
+h2 {
+  font-size: 1.5em;
+}
+
+
+h1 {
+  font-size: 2em;
+}
